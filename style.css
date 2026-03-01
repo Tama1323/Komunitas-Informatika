@@ -1,0 +1,79 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-beranda{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/beranda/beranda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-beranda-footer{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/beranda/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.judul{
+    font-size: 60px;
+}
+
+.color-nav{
+    background-color: rgb(177, 15, 15);
+}
+
+.pad{
+    background-color: rgb(255, 255, 255);
+}
+
+/* animasi */
+
+
+
+
+
+.animasi-right,
+.animasi-left,
+.animasi-up,
+.animasi-down {
+    opacity: 0;
+    transition: all 0.8s ease-out;
+}
+
+/* posisi awal beda */
+.animasi-right {
+    transform: translateX(-40px);
+}
+
+.animasi-left {
+    transform: translateX(40px);
+}
+
+.animasi-up{
+    opacity: 0;
+    transition: all 0.8s ease-out;
+    transform: translateY(40px);
+}
+
+.animasi-down{
+    opacity: 0;
+    transition: all 0.8s ease-out;
+    transform: translateY(-40px);
+}
+
+/* saat muncul */
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+/* delay-animation */
+.delay-1 { animation-delay: 1s; }
+.delay-2 { animation-delay: 2s; }
+.delay-3 { animation-delay: 3s; }
+.delay-4 { animation-delay: 4s; }
+.delay-5 { animation-delay: 5s; }
+.delay-6 { animation-delay: 6s; }
