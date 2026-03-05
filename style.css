@@ -3,14 +3,14 @@ body{
 }
 
 .bg-beranda{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/beranda/beranda.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/beranda/beranda.WebP);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .bg-beranda-footer{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/beranda/footer.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/beranda/footer.WebP);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,3 +77,5 @@ body{
 .delay-4 { animation-delay: 4s; }
 .delay-5 { animation-delay: 5s; }
 .delay-6 { animation-delay: 6s; }
+
+
