@@ -1,6 +1,9 @@
-body{
+/* Mencegah geser kanan kiri di HP */
+html, body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
+
 
 .bg-beranda{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asset/beranda/beranda.WebP);
