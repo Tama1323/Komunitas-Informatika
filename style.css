@@ -20,6 +20,12 @@ body{
     font-size: 60px;
 }
 
+@media (max-width:768px){
+.judul{
+font-size: 36px;
+}
+}
+
 .color-nav{
     background-color: rgb(177, 15, 15);
 }
@@ -29,7 +35,6 @@ body{
 }
 
 /* animasi */
-
 
 
 
